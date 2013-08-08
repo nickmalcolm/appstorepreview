@@ -1,0 +1,151 @@
+body{
+  font-family: "Helvetica Neue";
+  color: #000;
+}
+
+.featured{
+  float: left;
+  position: relative;
+}
+#featured-placeholder{
+  float: left;
+  position: absolute;
+  z-index: 0;
+}
+#new-noteworthy-icon{
+  float: left;
+  position: absolute;
+  top: 476px;
+  left: 30px;
+  z-index: 1;
+  width: 144px;
+  height: 144px;
+}
+#new-noteworthy-app-details{
+  float: left;
+  position: absolute;
+  top: 633px;
+  left: 30px;
+  z-index: 1;
+  width: 145px;
+}
+#new-noteworthy-app-name{
+  float: left;
+  width: 145px;
+  margin-bottom: 6px;
+  max-height: 54px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  overflow: hidden;
+}
+#new-noteworthy-app-category{
+  float: left;
+  width: 145px;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 23px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#new-noteworthy-app-price{
+  float: left;
+  width: 145px;
+  color: #666;
+  font-size: 23px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 24px;
+  overflow: hidden;
+}
+
+.search{
+  float: left;
+  position: relative;
+}
+
+#search-placeholder{
+  float: left;
+  position: absolute;
+}
+#search-terms{
+  float: left;
+  position: absolute;
+  top: 64px;
+  left: 72px;
+  z-index: 1;
+  width: 300px;
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#search-icon{
+  float: left;
+  position: absolute;
+  top: 158px;
+  left: 80px;
+  z-index: 1;
+  width: 128px;
+  height: 128px;
+}
+#search-app-details{
+  float: left;
+  position: absolute;
+  top: 165px;
+  left: 238px;
+  z-index: 1;
+  width: 200px;
+}
+#search-app-name{
+  float: left;
+  width: 200px;
+  margin-bottom: 8px;
+  max-height: 63px;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 33px;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
+}
+#search-app-creator{
+  float: left;
+  width: 200px;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 23px;
+  font-weight: 200;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
+}
+#search-app-price{
+  float: left;
+  position: absolute;
+  top: 210px;
+  left: 473px;
+  z-index: 1;
+
+  width: 145px;
+  color: #007aff;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 24px;
+  overflow: hidden;
+}
+#search-screenshot{
+  position: absolute;
+  top: 326px;
+  left: 122px;
+  z-index: 1;
+  width: 394px;
+  height: 672px;
+}
