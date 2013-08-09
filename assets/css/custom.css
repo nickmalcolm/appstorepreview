@@ -95,19 +95,28 @@ body{
 #search-app-details{
   float: left;
   position: absolute;
-  top: 165px;
+  top: 158px;
   left: 238px;
   z-index: 1;
   width: 200px;
+  height: 128px;
+  display: table;
+}
+.centered-details-middle{
+  display: table-cell;
+  vertical-align: middle;
+}
+.centered-details-inner{
+  position: relative;
+  top: -50%;
 }
 #search-app-name{
   float: left;
   width: 200px;
-  margin-bottom: 7px;
-  max-height: 63px;
+  max-height: 66px;
   font-size: 27px;
-  font-weight: 400;
   line-height: 33px;
+  font-weight: 400;
   overflow: hidden;
   text-rendering: optimizeLegibility;
   letter-spacing: 1px;
@@ -115,16 +124,19 @@ body{
 #search-app-creator{
   float: left;
   width: 200px;
-  margin-bottom: 8px;
   color: #666;
   font-size: 23px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 35px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   text-rendering: optimizeLegibility;
   letter-spacing: 1px;
+}
+#search-app-reviews{
+  float: left;
+  padding: 4px 2px;
 }
 #search-app-price{
   float: left;
